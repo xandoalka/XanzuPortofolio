@@ -5,6 +5,11 @@
 
 body{
   font-family: 'Manrope', sans-serif;
+  background-image: url('./assets/gradient01.png'), url('./assets/gradient02.png');
+  background-color: #101010;
+  background-size: auto, auto;
+  background-position: top right, left top;
+  background-repeat: no-repeat, no-repeat;
 }
 
 ::-webkit-scrollbar {

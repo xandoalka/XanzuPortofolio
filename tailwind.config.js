@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
+        'neutral-black':'#101010',
         'black-glass': '#0B0B0EE5',
         'primary': '#5965D2',
       },
