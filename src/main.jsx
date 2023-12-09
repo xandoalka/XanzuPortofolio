@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {
   createBrowserRouter,
-  Link,
   RouterProvider,
 } from "react-router-dom";
 import Portofolio from './pages/Portofolio.jsx';
