@@ -10,6 +10,15 @@ body{
   background-size: auto, auto;
   background-position: top right, left top;
   background-repeat: no-repeat, no-repeat;
+  letter-spacing: 0.4px;
+}
+
+.quote{
+  background: radial-gradient(50% 100% at 50% 50%, #5965D3 0%, #7133AF 100%);
+}
+
+.contact{
+  background: linear-gradient(268deg, #1E1F2E 1.89%, #271248 98.11%);
 }
 
 ::-webkit-scrollbar {
@@ -17,13 +26,9 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: #4A5568;
-}
-
-::-webkit-scrollbar-thumb:hover {
-background-color: #4A5568;
+background-color: #0B0B0EE5;
 }
 
 ::-webkit-scrollbar-track {
-background-color: #E2E8F0;
+background-color: #434343;
 }
