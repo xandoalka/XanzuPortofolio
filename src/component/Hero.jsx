@@ -10,7 +10,7 @@ const Hero = () => {
                     <p className="font-semibold">Xanzu Athando Alvinan Dika</p>
                     <p className="text-[#B6B6B6]">Frontend Developer</p>
                 </div>
-                <h1 className="text-5xl leading-tight max-w-lg text-center">Web developer yang ga peke lama</h1>
+                <h1 className="text-5xl leading-tight max-w-lg text-center">Web developer yang ga pake lama</h1>
                 <ul className="flex gap-3 font-semibold">
                     <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">Web Development</li>
                     <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">HTML</li>
