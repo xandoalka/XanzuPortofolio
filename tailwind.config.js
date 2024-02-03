@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     screens: {
-      'xl': '1440px',
+      'xl': '1100px',
+      'lg': '900px',
+      'sm': '480px',
+      'md': '767px',
     },
     extend: {
       backgroundColor: {
