@@ -18,9 +18,9 @@ const Nav = () =>{
                             <img className="w-8 h-8 bg-neutral-300 rounded-full" src={profil} alt="" />
                             <Link onClick={() => handleClick('home')} to={'/'}>Xanzu</Link>
                         </span>
-                        <Link onClick={() => handleClick('tentang-saya')} to="tentang-saya" className={`${activeButton === 'tentang-saya' ? 'border-b-[#5965D2]' : ''} lg:block hidden group duration-300 py-6 px-5 border-b-2 border-transparent transition ease-linear`}>
+                        {/* <Link onClick={() => handleClick('tentang-saya')} to="tentang-saya" className={`${activeButton === 'tentang-saya' ? 'border-b-[#5965D2]' : ''} lg:block hidden group duration-300 py-6 px-5 border-b-2 border-transparent transition ease-linear`}>
                             <span className={`${activeButton === 'tentang-saya' ? '-translate-y-1' : ''} block duration-300 group-hover:-translate-y-1 transition ease-linear`}>Tentang saya</span>
-                        </Link>
+                        </Link> */}
                         <Link onClick={() => handleClick('portofolio')} to="portofolio" className={`${activeButton === 'portofolio' ? 'border-b-[#5965D2]' : ''} lg:block hidden group duration-300 py-6 px-5 border-b-2 border-transparent transition ease-linear`}>
                             <span className={`${activeButton === 'portofolio' ? '-translate-y-1' : ''} block duration-300 group-hover:-translate-y-1 transition ease-linear`}>Portofolio</span>
                         </Link>
