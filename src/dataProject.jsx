@@ -1,5 +1,6 @@
 import img1 from './assets/keweb.site_pesantren-telaga-sunnah.png'
 import img2 from './assets/website-portofolio.png'
+import img3 from './assets/website-vanila-portfolio.png'
 
 export const dataProject = [
     {
@@ -20,4 +21,13 @@ export const dataProject = [
         url: "/",
         target: "_parent"
     },
+    {
+        id: 3,
+        type: "website",
+        img: img3,
+        title: "Website Portofolio Vanila",
+        description: "Website Portofolio pribadi yang di dapatkan dari tutorial di youtube",
+        url: "https://xandoalka.github.io/vanila-portfolio/",
+        target: "_blank"
+    }
 ]
