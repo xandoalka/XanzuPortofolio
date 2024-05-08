@@ -3,7 +3,7 @@ const TemplateProject = ({img, title, description}) => {
 
     return(
         <>
-            <img src={img} alt="Project Kewebsite Telaga Sunnah" />
+            <img className="w-full h-[13rem] object-cover" src={img} alt={title} />
             <article className='relative px-5 pt-6 pb-10'>
                 <h3 className='text-2xl font-semibold mb-4 leading-8 max-w-[15rem] xl:max-w-none'>{title}</h3>
                 <p className='w-11/12 leading-7 line-clamp-6'>{description}</p>

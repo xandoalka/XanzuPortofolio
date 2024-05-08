@@ -12,7 +12,7 @@ const Project = () => {
             <div className="w-[85%] lg:w-[80%] mx-auto">
                 <h2 className="text-2xl md:text-3xl text-center sm:text-start font-semibold max-w-sm leading-normal mb-12">Project selama <span className="text-[#8B97FF]">1 tahun</span> sebagai web developer</h2>
                 <div className="flex justify-around lg:gap-6 flex-wrap xl:flex-nowrap mb-10 md:mb-12 lg:mb-10">
-                    {data.map(project => (
+                    {data.slice(0, 3).map(project => (
                         <Link target={project.target} to={project.url} key={project.id} className='sm:w-full mb-6 lg:mb-0 md:w-1/2 xl:w-1/3 max-w-72 xl:max-w-sm min-h-[28rem] bg-neutral-card shadow-transparent hover:shadow-md hover:-translate-y-1 hover:shadow-neutral-600 duration-300 transition ease-in-out'>
                             <TemplateProject
                                 img={project.img}

@@ -15,7 +15,7 @@ const Showchase = () => {
         if (activeButton === 'button1') {
             return project.type === 'website'
         } else if (activeButton === 'button2') {
-            return project.type === 'application'
+            return project.type === 'app'
         } else if (activeButton === 'button3') {
             return project.type === 'fun'
         } else {

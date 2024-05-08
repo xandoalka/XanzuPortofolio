@@ -1,33 +1,45 @@
-import img1 from './assets/keweb.site_pesantren-telaga-sunnah.png'
-import img2 from './assets/website-portofolio.png'
-import img3 from './assets/website-vanila-portfolio.png'
+import img1 from './assets/website-portofolio.png'
+import img2 from './assets/website-vanila-portfolio.png'
+import img3 from './assets/app-todo-react.png'
+import img4 from './assets/app-todo-vanila.png'
 
 export const dataProject = [
     {
         id: 1,
         type: "website",
         img: img1,
-        title: "Kewebsite Telaga Sunnah",        
-        description: "Pesantren Telaga Sunnah Menjadi pusat pendidikan Islam yang mengutamakan pembinaan akhlak, pengetahuan agama, dan keterampilan sehari-hari untuk mencetak generasi yang berakhlak mulia dan siap menghadapi masa depan." ,
-        url: "https://keweb.site/pesantren-telaga-sunnah/",
-        target: "_blank"
-    },
-    {
-        id: 2,
-        type: "website",
-        img: img2,
         title: "Website Portofolio",
         description: "Website Portofolio pribadi yang di Desain oleh Rafee Fajri dan di buat dengan santuy",
         url: "/",
         target: "_parent"
     },
     {
-        id: 3,
+        id: 2,
         type: "website",
-        img: img3,
+        img: img2,
         title: "Website Portofolio Vanila",
         description: "Website Portofolio pribadi yang di dapatkan dari tutorial di youtube",
         url: "https://xandoalka.github.io/vanila-portfolio/",
         target: "_blank"
+    },
+    {
+        id: 3,
+        type: "app",
+        img: img3,
+        title: "Todo App React JS",
+        description: "Aplikasi Todo App yang dibuat dengan ReactJS dan mengikuti tutorial di youtube",
+        url: "https://xanzu-todoapp.vercel.app/",
+        target: "_blank"
+    },
+    {
+        id: 4,
+        type: "app",
+        img: img4,
+        title: "Todo App Vanila JS",
+        description: "Aplikasi Todo App yang di buat dengan vanila JS yang fungsinya dibuat sendiri menggunakan html, css dan js",
+        url: "https://xandoalka.github.io/todo-app-vanila/",
+        target: "_blank"
     }
+
 ]
+
