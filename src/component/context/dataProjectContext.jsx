@@ -9,7 +9,7 @@ const ProjectProvider = ({ children }) => {
    async function getData() {
       const res = await fetch('https://xanzu-postgresql.vercel.app/project')
       const data = await res.json()
-      setData(data)
+      setData(data.reverse())
    }
 
    return (
