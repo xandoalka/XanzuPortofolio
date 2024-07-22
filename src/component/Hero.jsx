@@ -18,6 +18,7 @@ const Hero = () => {
                     <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">JavaScript</li>
                     <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">React</li>
                     <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">Tailwind</li>
+                    <li className="cursor-none border-2 py-2 px-4 rounded-full hover:bg-primary hover:border-transparent transition ease-linear duration-200">Next.js</li>
                 </ul>
             </div>
         </header>
