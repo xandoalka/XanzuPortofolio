@@ -6,6 +6,12 @@ import { DataProject } from './context/dataProjectContext'
 
 const Project = () => {
     const [data] = useContext(DataProject)
+    const handleScrollToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  }
 
     return (
         <section className="text-white pt-20 pb-0 sm:py-20">
@@ -15,7 +21,7 @@ const Project = () => {
                     {data.slice(0, 3).map(project => (
                         <Link target={project.target} to={project.url} key={project.id} className='sm:w-full mb-6 lg:mb-0 md:w-1/2 xl:w-1/3 max-w-72 xl:max-w-sm min-h-[28rem] bg-neutral-card shadow-transparent hover:shadow-md hover:-translate-y-1 hover:shadow-neutral-600 duration-300 transition ease-in-out'>
                             <TemplateProject
-                                img={project.img}
+                                img={project.image}
                                 title={project.title}
                                 description={project.description}
                             >
@@ -24,12 +30,12 @@ const Project = () => {
                     ))}
                 </div>
                 <div className='w-full flex justify-center items-center mt-6 mb-10'>
-                    <Link to={'/portofolio'} className='border-2 py-[0.88rem] px-5 font-bold text-sm hover:bg-white hover:text-black  transition ease-linear duration-200'>Lihat lebih banyak</Link>
+                    <Link to={'/portofolio'} onClick={handleScrollToTop} className='border-2 py-[0.88rem] px-5 font-bold text-sm hover:bg-white hover:text-black  transition ease-linear duration-200'>Lihat lebih banyak</Link>
                 </div>
                 <div className='hidden md:flex bg-neutral-card flex-col md:flex-row lg:justify-between'>
                     <div className='flex flex-col justify-center px-12 py-10 xl:pl-16 xl:pr-0 max-w-md'>
                         <p className='text-xl md:text-xl xl:text-2xl leading-10 font-semibold h-20 lg:h-32'>Tidak semua projek harus serius.<br />Cek beberapa fun project saya.</p>
-                        <Link to={'/portofolio'} className='flex gap-1 w-fit text-sm font-extrabold h-10 items-center px-3 border-2 border-transparent bg-primary hover:bg-white hover:text-[#101010] transition-all ease-linear duration-200'>Lihat katalog
+                        <Link to={'/portofolio'} onClick={handleScrollToTop} className='flex gap-1 w-fit text-sm font-extrabold h-10 items-center px-3 border-2 border-transparent bg-primary hover:bg-white hover:text-[#101010] transition-all ease-linear duration-200'>Lihat katalog
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
                         </Link>
                     </div>

@@ -31,7 +31,7 @@ const Showchase = () => {
         return filteredData.map(project => (
             <Link target={project.target} to={project.url} key={project.id} className='sm:w-full mb-6 lg:mb-0 md:w-1/2 xl:w-1/3 max-w-72 xl:max-w-sm min-h-[28rem] bg-neutral-card shadow-transparent hover:shadow-md hover:-translate-y-1 hover:shadow-neutral-600 duration-300 transition ease-in-out'>
                 <TemplateProject 
-                    img={project.img} 
+                    img={project.image} 
                     title={project.title} 
                     description={project.description}
                 >

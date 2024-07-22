@@ -1,7 +1,7 @@
 import logo from '../assets/profil.png'
 
 const Footer = ()=> {
-
+   const currentYear = new Date().getFullYear();
     return(
         <footer className="pt-12 lg:pt-16 pb-10 bg-neutral-card text-white">
             <div className="flex flex-col gap-6 md:gap-0 md:flex-row justify-between pb-12 mb-6 border-b border-b-[#d9d9d9] w-[80%] mx-auto">
@@ -71,7 +71,7 @@ const Footer = ()=> {
                 </div>
             </div>
             <div className='grid place-items-center w-11/12 mx-auto text-center'>
-                <p>Copyright 2023. Xanzu. All Rights Reserved.</p>
+                <p>Copyright {currentYear}. Xanzu. All Rights Reserved.</p>
             </div>
         </footer>
     )

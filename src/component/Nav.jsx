@@ -7,7 +7,11 @@ const Nav = () =>{
 
     const handleClick = (button) => {
         setActiveButton(button)
-    }
+        window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+     });
+    } 
 
     return(
         <>
